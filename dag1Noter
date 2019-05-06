@@ -1,0 +1,128 @@
+//Boolean operators
+// ----------- FØRSTE DEL AF DAGEN
+//Laver variable
+let a = true
+let b = true
+let c = 4
+let d = 10
+
+//Eksempel på en if/else statement
+if(b){
+    console.log('Du har ret')
+}else if(c > 100){
+    console.log('hej2')
+}
+else{
+    console.log('noone of the above')
+}
+
+//! modsat af sandt
+
+//Betyder Og
+// &&
+//Betyder eller
+// ||
+
+//DET SAMME:
+// ==
+//IKKE DET SAMME
+// !=
+
+//Lav en if/else statement
+//Brug ovenstående variabler, a,b,c,d
+//Opfyld disse kriterier:
+//Er a falsk? Hvis ja - print 'Hej'
+//er c+d mindre end 10 ? - Hvis ja print 'hej2'
+//Ellers print 'INGENTING'
+
+//Hvis A ikke er sand
+if(!a){
+    console.log('Hej')
+}
+//Ellers hvis c+d er mindre end 10
+else if(c+d < 10){
+    console.log('hej2')
+}
+//Ellers gør dette
+else{
+    console. log('ingenting')
+}
+
+
+// ----------------- DAG2
+//Array
+// Opret et array med 3 elementer. 
+// Tilføj et element mere, og print længden.
+//EKSTRA OPGAVE: Flip index 0 og index 3 værdier.
+
+
+let array = ["Jesper", "Nikolai", "Per"];
+// Trækker element ud fra array
+console.log(array[0])
+
+// Tjekker type of array => object
+// console.log(typeof(array))
+
+// // type af element
+// console.log(typeof(array[0]))
+// // Længden af array
+// console.log(array.length)
+// // Tilføjer Pernille til array
+// array.push("Pernille");
+
+// console.log(array.length)
+// // console.log(array)
+
+// // Ændre værdi
+// array[3] = "Lars"
+// // Printer hele array
+// console.log(array)
+// //Trækker værdi ud
+// let element = array[0]
+// // Printer element => Jesper
+// console.log(element)
+// // Laver person Kurt
+// let person = "Kurt Wonnegut";
+// // Pusher variable
+// array.push(person)
+// console.log(array)
+
+
+
+// let array2 = [1, 23, 55];
+
+// array2.push(44);
+// console.log(array2)
+// // gemmer temp variable
+// let temp = array2[0];
+// // Overskriver plads 0
+// array2[0] = array2[3];
+// // Overskriver med temp
+// array2[3] = temp
+
+// console.log(array2)
+
+// i = i + 1 == i++
+// let i = 0
+// for(let i = 0; i < 100; i++){
+//     console.log(i)
+// }
+
+
+let num = []
+// Laver array med 1000 elementer
+for(let i = 0; i < 2000; i++){
+    num.push(i)
+}
+
+console.log(num[1000])
+// Køre igennem alle elementer og printer dem ud
+for(let y = 0; y < num.length; y++){
+    console.log(num[y])
+}
+
+for(let x = 0; x < num.length; x++){
+    num[x] = num[x] * 2 
+    console.log(num[x])
+}
+
