@@ -1,0 +1,143 @@
+
+// -- Nikolais del
+// Lav et array med alle tal fra 0-50. Træk alle elementerne ud og gang med 2. Læg de nye værdier over i nyt array.
+// Man burde enede ud med 2 arrays det orginale med tallene mellem 0-50, og et nyt med tallene 0-100
+
+// Step 1:
+// Lav et array med tallene 0-50 (Brug et loop til at udføre dette)
+
+// Step 2:
+// Loop igennem arrayet og gang alle tal med 2, og lig dem over i et nyt array på samme tid
+// Man ligger tal over i et nyt array ved hjælp af .push() funktionen
+
+
+// // Laver
+// let nums = [];
+
+// for(let i = 0; i < 51; i++){
+//     nums.push(i)
+// }
+
+// console.log(nums)
+
+// let timesNums = []
+
+// for(let x = 0; x < nums.length; x++){
+//     let number = nums[x];
+//     timesNums.push(number * 2)
+// }
+
+function createArray(a, b){
+    for(let i = 0; i < 100; i++){
+        a.push(b)
+    }
+    return a
+}
+
+
+let array1 = []
+array1.push
+let returnedArray = createArray(array1, 5)
+console.log(returnedArray)
+
+//-- Jespers
+
+// HTML DELEN - Javascript delen er under
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <h1>Hej Alle</h1>
+
+    <input type="number" id="tal1">
+    <input type="number" id="tal2"><br>
+    <button id="submit">Regn ud</button>
+    <p id="svar"> Her skal svaret så</p>
+
+    <h2>Nu arbejder vi med tekst</h2>
+    <input type="text" id="tekst1">
+    <button id="submit2"> Click me</button>
+
+    <script src='dag2Functions.js'></script>
+</body>
+</html>
+
+// -- Jesper Javascript
+
+//Funktion der ikke tager argumenter
+function nummer1() {
+    let a = 'Jesper'
+    let b = 'Nikolai'
+
+    console.log('Mit navn er ' + a + ' Hans navn er ' + b)
+}
+
+
+//Funktion der tager argumenter og håndtere dem
+function nummer2(num1 = 2, num2 = 4, num3) {
+    console.log(num1 + num2)
+}
+
+//Ligger 2 tal sammen med argumenterne 1 og 2
+function lig2TalSammen(tal1, tal2) {
+    return (Number(tal1) + Number(tal2))
+}
+
+//Tager fat i knappen via html, udregner 2 tal og skriver det ud i HTML
+document.getElementById('submit').addEventListener('click', function () {
+    let tal1 = document.getElementById('tal1').value
+    let tal2 = document.getElementById('tal2').value
+    let number = lig2TalSammen(tal1, tal2)
+    document.getElementById('svar').innerHTML = 'Dit svar er ' + number
+})
+
+//Tager fat i knap nummer 2, hvor vi arbejder med tekst
+//Og vi tager vi i teksten
+//....
+document.getElementById('submit2').addEventListener('click', function () {
+    let text = document.getElementById('tekst1').value
+    let magicText = readText(text)
+})
+
+
+//Function der tager imod tekst og checker på indholdet af teksten
+//Og derefter retunere tekst alt efter hvilken if sætning man rammer
+function readText(text) {
+    if (text.includes('h') || text.includes('H')) {
+        return 'Du har et h med dig'
+    } else if (!text.includes('e')) {
+        return 'Hvor er mit e?'
+    }
+    else {
+        return 'INGENTING SKETE?'
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
