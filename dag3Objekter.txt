@@ -1,0 +1,46 @@
+// Vi laver et object med curly fries
+let person1 = {
+    firstName: "Nikolai",
+    lastName: "Perlt",
+    //Laver object inde i object
+    bestFriend: {
+        firstName: "Jesper",
+        lastName: "Rusbjerg"
+    },
+    bestFood: ["Pizza", "Burger", "Salat"]
+} 
+
+console.log(person1["lastName"] + person1["firstName"])
+
+//Gemmer person 1 firstname i variable
+let person1FirstName = person1["firstName"]
+
+console.log(person1FirstName)
+
+//Printer bestFriends firstName ud
+console.log(person1["bestFriend"]["firstName"])
+
+//Printer det der står på index 1 ud fra bestfriend
+console.log(person1["bestFood"][1])
+
+// Laver en fucntion der creater et person object for os
+function createPerson(a, b, c){
+    if(c < 13){
+        return {}
+    }
+    let person = {
+        firstName: a,
+        lastName: b,
+        age: c
+    }
+    return person
+}
+
+// Laver en person med vores function
+let person3 = createPerson("Kurt", "Wonnegut", 55);
+
+//Printer persons first og last name ud
+console.log(person3["firstName"] + " " + person3["lastName"]);
+
+//Printer hele person3 ud
+console.log(person3);
