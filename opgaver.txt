@@ -1,0 +1,63 @@
+Opgave 1.
+Lav 3 variable: 2 tal og en string der siger "Resultat er"
+print stringen ud med resultatet af de 2 tal
+
+Opgave 2.
+Lav 2 variable: 2 tal. Lig summen af de 2 tal sammen
+Hvis summen af de 2 tal er højere end 10, print 'højere end 10'
+Hvis summen er over 8, print 'højere end 8'
+Ellers print 'Ingenting blev opfyldt'
+
+Opgave 3.
+Lav et loop der printer tallene fra 0-50
+
+Opgave 4.
+Lav et array med tallene 1, 4, 8, 10
+Print tallene 4 og 10 fra arrayet
+Ekstra opgave:
+Lav et loop der printer alle talene fra arrayet
+
+Opgave 5.
+Lav en function der printer 'Jeg elsker javascript'
+Kald functionen og se resultatet i loggen
+
+Opgave 6.
+Lav en function der tager imod 2 tal og printer resultatet
+af de 2 tal: 'Resultatet er: ' - Kald functionen og se resultatet
+
+Opgave 7.
+Lav en function der tager imod et array og en variable
+Functionen skal indsætte variablen i arrayet 48 gange
+retuner arrayet og print resultatet
+Hint: Lav et tomt array som du kan give til functionen
+
+
+
+
+Opgave 8.
+Lav et object af jer selv
+Inkluder:
+navn, alder, bopæl, uddannelse, hobby, antal søskende
+print jeres navn, uddannelse ved hjælp af objektet
+
+Opgave 9.
+På din html side lav 2 input fields der tager imod et tal
+Lav også en paragraph til at printe resultatet
+Lav en knap, der kan aktivere koden(Se evt. i notes fra dag2)
+Tag fat i de 2 tal i din Javascript - udregn resultatet
+og præsenter det paragraphen
+
+Opgave 10.
+På din html side lav et input field der tager imod tekst
+Lav en paragraph til at printe et resultat
+Lav en knap, der kan aktivere koden(Se evt. i notes fra dag2)
+Lav en selv valgt if/elseif/else sætning der håndtere stringen
+og derefter udskriver noget i paragraphen
+
+Opgave 11:
+Lav en valgfri opgave der kan bruges i jeres 
+eksamensprojekt. Inkluder HTML+Javascript og lad fantasien sætte
+grænserne. Brug basic data types/arrays og brug tid på det
+Vi hjælper gerne her og sørger for at i kommer i mål med de 
+forskellige ting
+
