@@ -1,6 +1,6 @@
 Opgave 1.
 Lav 3 variable: 2 tal og en string der siger "Resultat er"
-print stringen ud med resultatet af de 2 tal
+Lig de 2 tal sammen og print 'Resultatet er' + resultatet
 
 Opgave 2.
 Lav 2 variable: 2 tal. Lig summen af de 2 tal sammen
@@ -31,13 +31,10 @@ Functionen skal indsætte variablen i arrayet 48 gange
 retuner arrayet og print resultatet
 Hint: Lav et tomt array som du kan give til functionen
 
-
-
-
 Opgave 8.
 Lav et object af jer selv
 Inkluder:
-navn, alder, bopæl, uddannelse, hobby, antal søskende
+navn, alder, bopæl, uddannelse, hobby, telefonnummer
 print jeres navn, uddannelse ved hjælp af objektet
 
 Opgave 9.
@@ -51,7 +48,7 @@ Opgave 10.
 På din html side lav et input field der tager imod tekst
 Lav en paragraph til at printe et resultat
 Lav en knap, der kan aktivere koden(Se evt. i notes fra dag2)
-Lav en selv valgt if/elseif/else sætning der håndtere stringen
+Lav en freestyle if/elseif/else sætning der håndtere stringen
 og derefter udskriver noget i paragraphen
 
 Opgave 11:
@@ -60,4 +57,5 @@ eksamensprojekt. Inkluder HTML+Javascript og lad fantasien sætte
 grænserne. Brug basic data types/arrays og brug tid på det
 Vi hjælper gerne her og sørger for at i kommer i mål med de 
 forskellige ting
+
 
