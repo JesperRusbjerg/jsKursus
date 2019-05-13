@@ -1,0 +1,26 @@
+1) Lav 2 input fields i HTML der tager imod tekst, samt en knap
+Når man trykker på knappen skal din javascript tage de 2 input fields, ligge dem sammen og
+printe den nye værdi ud i en <p>
+
+2) lav 4 input fields der tager imod tal, og en knap
+Når man trykker på knappen skal de 4 tal ganges sammen og printes ud i en <h1>
+
+3) lav 2 input fields, det ene tager imod et tal, det andet en tekst, lav også en knap
+Når knappen trykkes skal javascript ligge tallet og stringen sammen og vise det i en <h3>
+
+4) Lav en lommeregner
+Hints:
+Lav 2 input fields i HTML der tager imod tal, samt 4 knapper, +-*/
+Lav en <p> der kan udskrive resultatet
+
+5) Lav et input field der tager imod et tal, samt en knap
+Når man trykker på knappen skal en div vise <p>Hej jeg er her</p> det antal gange som blev givet
+i input
+Eksempel: Input 2 skal vise 2 <p>'s: 
+<p>Hej jeg er her</p>
+<p>Hej jeg er her</p>
+Hint: Tag fat i input tallet når knappen aktiveres, lav et forloop der køre
+det antal gange som tallet er stort, og for hver iteration tilføj <p>Hej jeg er her</p> til en 
+string derefter sæt div'ens innerHTML
+
+6) Lav eksamens opgave og få hjælp af os til hvad end i kunne have lyst til at lave! :)
